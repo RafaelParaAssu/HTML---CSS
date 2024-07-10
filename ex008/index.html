@@ -4,6 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formatação de Textos</title>
+    <style>
+        mark{
+            background-color: chocolate;
+        }
+    </style>
 </head>
 <body>
     <h1>Principais formatações</h1>
@@ -13,5 +18,19 @@
     <h2>Itálico / Ênfase</h2>
     <p>Nesta frase, destacamos o <i>termo em itálico</i> usando a tag I (não semântica).</p>
     <p>Assim como a característica em negrito, temos também nessa frase em itálico, um <em>termo com ênfase</em>, utilizando a tag EM (semântica).</p>
+    <h2>Texto marcado</h2>
+    <p>Podemos criar um <mark style="background-color: chocolate;">texto marcado</mark> utilizando a tag MARK.</p>
+    <p>Podemos alterar a cor do <mark>texto marcado</mark>, utilizando o parametro style dentro da tag MARK, para destacar apenas esse texto, ou de forma geral em todos os textos marcados, aplicando o parâmetro style dento do cabeçalho HEAD.</p>
+    <h2>Texto grande e texto pequeno</h2>
+    <p>Quando criamos um <big>texto grande</big> e um <small>texto pequeno</small> nesse parágrafo, vimos que a tag BIG está obsoleta, porém a tag SMALL ainda está em uso, pois ela tem significado (semântica).</p>
+    <h2>Texto Deletado / Inserido</h2>
+    <p>Podemos marcar <del>um texto como excluído</del> para indeicar que ele deve ser lido, porém não considerado.</p>
+    <p>Em contrapartida, podemos marcar <ins>um texto como inserido</ins> para dar ênfase e indicar que ele foi adicionado depois. </p>
+    <p>Para o texto excluído utilizamos a <mark>tag DEL</mark>, e para o texto inserido, utilizamos a <mark>tag INS</mark>.</p>
+    <h2>Texto Sobescrito / Subscrito</h2>
+    <p>Utilizamos o texto sobescrito para expressões do tipo 4X<sup>3</sup>+2X<sup>2</sup>=6X+0.</p>
+    Já para o texto subscrito podemos utilizar como exemplo H<sub>3</sub>CO<sub>2</sub>CH<sub>3</sub>.
+    <p>As tags utilizadas foram, <mark style="background-color: lime;">tag SUP</mark> para indicar um texto <mark style="background-color: lime;">sobescrito</mark>, e a <mark style="background-color: turquoise;">tag SUB</mark> para indicar um <Mark style="background-color: turquoise;">texto subscrito</Mark>.</p>
+
 </body>
 </html>
